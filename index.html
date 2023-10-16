@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- <link rel="script" href="script/main.js"> -->
+    <title>DatePerso</title>
+</head>
+<body>
+    <div class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">DatePerso</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <button class="btn btn-outline-success my-2 my-sm-0" onclick="displayMinim()">Minim</button>
+        <button class="btn btn-outline-danger my-2 my-sm-0" onclick="displayComplete()">Complet</button>
+       
+        </div>
+        
+    </div>
+    <div class="container">
+        
+        <div class="card-deck mb-3 text-center">
+            
+            <!-- Identitate starts here -->
+            <div id="identitate" class="card mb-3 box-shadow">
+              <div class="card-header">
+                <h4 class="my-0 font-weight-normal">Identitate</h4>
+              </div>
+              <div class="card-body">
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+                <button type="button" class="btn btn-lg btn-block btn-outline-primary">Identitate</button>
+                <button type="button" class="btn btn-lg btn-block btn-outline-secondary">
+                  <a href="views/identitate.html" class="btn btn-success">Identitate noua</a>
+                
+                </button>
+                
+              </div>
+            </div>
+            <!-- Comunicare starts here -->
+            <div id="comunicare" class="card mb-3 box-shadow ">
+              <div class="card-header">
+                <h4 class="my-0 font-weight-normal">Comunicare</h4>
+              </div>
+              <div class="card-body">
+                <ul class="list-unstyled mt-3 mb-4">
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+                <button type="button" class="btn btn-lg btn-block btn-secondary">Comunicare</button>
+              </div>
+            </div>
+            <!-- Hidden options starts here -->
+            <div id="hidediv" class="hide">
+                <!-- Experienta starts here -->    
+                <div id="experienta" class="card mb-3 box-shadow">
+                <div class="card-header">
+                    <h4 class="my-0 font-weight-normal">Experienta</h4>
+                </div>
+                <div class="card-body">
+                    <ul class="list-unstyled mt-3 mb-4">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    </ul>
+                    <button type="button" class="btn btn-lg btn-block btn-success">Experienta</button>
+                </div>
+            </div>
+                <!-- Hobby starts here -->
+                <div id="hobby" class="card mb-3 box-shadow">
+                    <div class="card-header">
+                    <h4 class="my-0 font-weight-normal">Hobby</h4>
+                    </div>
+                    <div class="card-body">
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <button type="button" class="btn btn-lg btn-block btn-warning">Hobby</button>
+                    </div>
+                </div>
+        </div>
+    </div>
+        </div>
+        <script src="script/main.js"></script>
+        <footer>
+            <div>
+                <p id="date">
+                    Today is: 
+                        <script>               
+                            currentDate()
+                        </script>
+                </p>
+            </div>
+        </footer>
+  </div>
+    
+    
+</body>
+</html>

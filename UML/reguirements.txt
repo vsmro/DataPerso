@@ -1,0 +1,17 @@
+DatePerso / tema1
+
+Folosind WebStorm generați un  proiect software cu numele DatePerso.
+Landing page va conține o opțiune de selecție care poate avea 2 valori : minim respectiv complet
+User ul când selectează  optiuniunea minim se vor afișa 2 butoane iar când selecteaza  optiunea  complet  se vor afișa 4 butoane.
+
+
+Butoanele vor avea următoarele nume : Identitate, Comunicare, Experienta, Hobby, 
+
+Identitatea conține următoarele info : nume, prenume, nr carte identitate, varsta
+Comunicare conține următoarele info: lista app - conturi existente pe social media
+Experienta conține următoarele info : lista cu proiecte la care ai participat și durata lor cât și data curenta
+Hobby conține următoarele info: o lista cu hobby-uri și data curenta
+
+Opțiunea minim conține butoanele Identitate și Comunicare. Opțiunea complet conține Identitate,Comunicare,Experianta,Hobby.
+
+Când User ul face click pe fiecare buton asta înseamnă executarea unei funcții specifice.Fiecare funcție va afișa pe ecran și în consola dar și într-un alert informația corespunzătoare.
